@@ -1,0 +1,13 @@
+****    RB-Chall by mnmuniz ****
+    1- JUNIT
+    2- JAVA
+    3- MAVEN
+    
+ Step to test
+ 1. install docker
+ 2. docker pull clue/json-server
+ 3. run into powershell docker run -d -p 80:80 -v {Replace with file Location of db.json}\redbee\db.json:/data/db.json clue/json-server
+ 4. Verify can connect into http://localhost:80/
+ 5. Start to create test to this mock-server rest api
+ 
+ 
