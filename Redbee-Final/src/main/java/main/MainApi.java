@@ -20,7 +20,7 @@ import com.jayway.restassured.response.Headers;
 
 
 
-public class BaseApiTest {
+public class MainApi {
 
 	protected static SessionFilter sessionFilter;
 	protected static ErrorLoggingFilter errorLoggingFilter;

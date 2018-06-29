@@ -11,11 +11,11 @@ import java.util.Random;
 import org.json.simple.JSONObject;
 import org.junit.Test;
 
-import main.BaseApiTest;
+import main.MainApi;
 import main.utils.CreateTests;
 import main.utils.DateGetters;
 
-public class DeleteUsers extends BaseApiTest {
+public class DeleteUsers extends MainApi {
 
 	Random rand = new Random();
 	public String nameTimestamp = new DateGetters().getDate(0, "yyyy-MM-dd'T'HH:mm:ss:SS");

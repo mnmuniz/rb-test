@@ -14,11 +14,11 @@ import static org.hamcrest.Matchers.everyItem;
 
 import org.junit.Test;
 
-import main.BaseApiTest;
+import main.MainApi;
 
 
  
-public class GetUserClass extends BaseApiTest {
+public class GetUserClass extends MainApi {
 	
 	
 	

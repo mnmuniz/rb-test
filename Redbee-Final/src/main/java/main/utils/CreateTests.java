@@ -9,7 +9,7 @@ import java.util.HashMap;
 
 import org.json.simple.JSONObject;
 
-import main.BaseApiTest;
+import main.MainApi;
 
 
 
@@ -22,7 +22,7 @@ public class CreateTests {
 			fieldArrayList.addAll(fieldCollection);
 			
 			HashMap<Object, Object> bodyResult = expect().statusCode(201)
-			.given().headers(new BaseApiTest().authHeader)
+			.given().headers(new MainApi().authHeader)
 			.body(body)
 			.when().post(url).then().extract().path("");
 			

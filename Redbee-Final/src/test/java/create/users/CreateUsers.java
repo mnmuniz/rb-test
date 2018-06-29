@@ -13,9 +13,9 @@ import org.junit.Test;
 
 import main.utils.CreateTests;
 import main.utils.DateGetters;
-import main.BaseApiTest;
+import main.MainApi;
 
-public class CreateUsers extends BaseApiTest {
+public class CreateUsers extends MainApi {
 	
 	Random rand = new Random();
 	public String nameTimestamp = new DateGetters().getDate(0, "yyyy-MM-dd'T'HH:mm:ss:SS");

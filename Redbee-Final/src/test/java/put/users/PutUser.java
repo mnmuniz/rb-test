@@ -9,11 +9,11 @@ import java.util.Random;
 import org.json.simple.JSONObject;
 import org.junit.Test;
 
-import main.BaseApiTest;
+import main.MainApi;
 import main.utils.CreateTests;
 import main.utils.DateGetters;
 
-public class PutUser extends BaseApiTest {
+public class PutUser extends MainApi {
 
 	
 	Random rand = new Random();
