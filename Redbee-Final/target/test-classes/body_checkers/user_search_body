@@ -1,0 +1,1 @@
+output.any { it.containsKey('id') and it.containsKey('refId') and it.containsKey('version') and it.containsKey('status') and it.containsKey('email') and it.containsKey('firstName') and it.containsKey('lastName') and it.containsKey('created') and it.containsKey('createdBy') and it.containsKey('modified') and it.containsKey('modifiedBy') }
